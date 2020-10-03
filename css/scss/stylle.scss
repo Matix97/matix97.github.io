@@ -2,8 +2,9 @@ $font:'Open Sans', sans-serif;
 $redColor: red;
 body{
   font-family: $font;
-  margin-left: 150px;
-  margin-right: 150px;
+  @media (min-width: 950px){
+   margin-left: 150px;
+   margin-right: 150px;}
   position: relative;
 }
 .staticMenu{
