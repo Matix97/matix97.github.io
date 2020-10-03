@@ -10,6 +10,8 @@ body{
 .staticMenu{
   position: fixed;
   top: 0;
+  left:0;
+  right:0;
   @media (min-width: 950px){
     left: 150px;
     right: 150px;}
