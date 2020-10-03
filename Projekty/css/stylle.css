@@ -1,0 +1,123 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+header{
+  background-color: darkgray;
+}
+button{
+  background-color: red;
+}
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+header a:link{
+  color: white;
+}
+.latestProduct{
+  border: 1px #eee solid;
+  padding: 5px;
+  margin: 5px;
+
+}
+.boxForProduct{
+  width: 33.3%;
+}
+.products{
+  margin: 10px;
+}
+article{
+  padding: 10px;
+}
+.firstPartTitle{
+ color: aliceblue;
+ margin-left: 30px;
+ 
+}
+.secondPartTitle{
+  color: red;
+}
+
+h2{
+  color:blue;
+  font-weight: bold;
+}
+.divisor{
+  border-bottom: 1px #eee solid;
+  padding-top: 3px;
+  margin-bottom: 5px;
+}
+section>div>h2>a{
+  float: right;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+header>nav>ul>li>a{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header>nav>ul>li{
+  display: inline-block;
+}
+header>nav{
+  float: right;
+  margin-right: 30px;
+}
+.homeLink{
+  border-bottom: 3px orangered solid;
+  padding-bottom: 5px;
+}
+.displayProducts{
+  display: flex;
+  flex-wrap: wrap;
+}
+.about{
+  display: inline-block;
+  vertical-align: top;
+}
+clear::after{
+  content: "";
+  clear: both;
+  
+}
+.purchaseButton{
+  float: right;
+  margin-top: 10px;
+  
+}
+.purchaseSection{
+  background-color: antiquewhite;
+}
+.purchaseText{
+ content: "";
+ display: inline-block;
+}
+footer{
+  text-align: center
+}
+.readMoreButton{
+  margin-top: 5px;
+}
+.aboutImage{
+  display:"inline-block";
+  margin-top: 5px;
+  /* float: right; */
+}
+.rev{
+  float:right;
+}
+.productDescription{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.productTitle{
+  color: aquamarine;
+}
+.procutPrice{
+  float: right;
+  /* align-items: flex-end; */
+}
