@@ -1,0 +1,131 @@
+$headerBackgroundColor: #F7F8FA;
+$strongOrange: #F34423;
+$orangeButtonBackground: #FAC4AE; 
+$greenButtonBackground: #B7EDDD;
+$greenTextButton:  #2ee093;
+$buttonBlue: #1D96FA;
+$font-title: 'Open Sans', sans-serif;
+$readmoreLinkColour: #9BABCE;
+$backgroundCustomerColour: #F3F7FB;
+$socialColorIcons: #6E6D6D;
+
+.round-border{
+  border-radius: 50%;
+  border: $socialColorIcons solid 1px;
+}
+.email-field{
+border:none;
+background-color: $backgroundCustomerColour;
+margin-right: 10px;
+height: 35px;
+}
+.contact-us-style{
+  border: $strongOrange solid 2px;
+  color: $strongOrange;
+  background-color: white;
+  border-radius: 20px;
+}
+.custom-dot{
+  background-color: $strongOrange;
+  border-color: $strongOrange;
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-right: 7px;
+  @media (max-width: 766px){
+display: none;
+}
+
+}
+
+.choose-line{
+  //margin-top: 49%;
+  margin-left: 40%;
+  margin-right: 40%;
+  height: 15px;
+  border-top: 4px solid black;
+}
+.photo-properties{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  
+}
+.customer-card{
+  background-color: $backgroundCustomerColour;
+
+}
+.readmore-link{
+  color: $readmoreLinkColour;
+}
+// hambureger color
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,68,35, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.card{
+  border: none;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: $strongOrange;
+} 
+.circleLogo{
+  content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: $strongOrange;
+    display: block;
+    margin-right: 10px;
+}
+.side-title{
+  color: black;
+  font-family: $font-title;
+}
+.home-link{
+  color: $strongOrange;
+  font-weight: bold;
+}
+.color-button{
+  background-color: $buttonBlue;
+}
+.ul-position{
+  margin-right: 150px;
+}
+
+.get-started-button{
+  color: $strongOrange;
+  background-color: $orangeButtonBackground;
+}
+.learn-more-button{
+  color: $greenTextButton;
+  background-color: $greenButtonBackground;
+}
+.header-image-pos{
+  padding-top: 30px;
+}
+.other-menu-links{
+  color: black;
+  font-weight: bold;
+}
+.main-color-theam{
+  background-color: $headerBackgroundColor;
+}
+
+.navbar-positioning{
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  @media (min-width: 950px){
+    left: 150px;
+    right: 150px;}
+  z-index: 1;
+  width: auto;
+}
+.padding-menu-allways-top{
+  padding-top: 70px;
+}

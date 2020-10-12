@@ -1,0 +1,138 @@
+.round-border {
+  border-radius: 50%;
+  border: #6E6D6D solid 1px;
+}
+
+.email-field {
+  border: none;
+  background-color: #F3F7FB;
+  margin-right: 10px;
+  height: 35px;
+}
+
+.contact-us-style {
+  border: #F34423 solid 2px;
+  color: #F34423;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.custom-dot {
+  background-color: #F34423;
+  border-color: #F34423;
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+@media (max-width: 766px) {
+  .custom-dot {
+    display: none;
+  }
+}
+
+.choose-line {
+  margin-left: 40%;
+  margin-right: 40%;
+  height: 15px;
+  border-top: 4px solid black;
+}
+
+.photo-properties {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.customer-card {
+  background-color: #F3F7FB;
+}
+
+.readmore-link {
+  color: #9BABCE;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,68,35, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.card {
+  border: none;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #F34423;
+}
+
+.circleLogo {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #F34423;
+  display: block;
+  margin-right: 10px;
+}
+
+.side-title {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.home-link {
+  color: #F34423;
+  font-weight: bold;
+}
+
+.color-button {
+  background-color: #1D96FA;
+}
+
+.ul-position {
+  margin-right: 150px;
+}
+
+.get-started-button {
+  color: #F34423;
+  background-color: #FAC4AE;
+}
+
+.learn-more-button {
+  color: #2ee093;
+  background-color: #B7EDDD;
+}
+
+.header-image-pos {
+  padding-top: 30px;
+}
+
+.other-menu-links {
+  color: black;
+  font-weight: bold;
+}
+
+.main-color-theam {
+  background-color: #F7F8FA;
+}
+
+.navbar-positioning {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: auto;
+}
+@media (min-width: 950px) {
+  .navbar-positioning {
+    left: 150px;
+    right: 150px;
+  }
+}
+
+.padding-menu-allways-top {
+  padding-top: 70px;
+}
